@@ -99,6 +99,31 @@ nav .menu-btn i {
   padding-top: 100px;
   padding-bottom: 100px;
 }
+/* footer design area  */
+footer{
+  background-color: rgba(0, 0, 0, 0.767);
+  padding: 50px;
+}
+.footer-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+.footer-section{
+   text-align: center;
+   color: #fff;
+}
+.footer-section a{
+   text-decoration: none;
+   color: #fff;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  text-decoration: none;
+  display: block;
+}
+
+
 
 /* nav responsive query  */
 
